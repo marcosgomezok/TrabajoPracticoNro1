@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadisticas</title>
+</head>
+    <body>
+        <div>
+            <h1>Estadisticas generales</h1>
+            <form method="get" action="#">
+
+                <label for="lista">Seleccione la estadisctica deseada</label>
+                <input list="estadis" name="lista">
+                <datalist id="estadis">
+                    <option value="PTF">
+                    <option value="Tribunales Evaluadores">
+                </datalist>
+             
+                <input type="submit" name="Aceptar">
+
+            </form>
+
+            </div>
+
+            <div class="centrar mb-3"><h3>Listado de PTF</h3></div>
+            <div class="form-group row">
+                <label for="fechadesde" class="col-sm-2 col-form-label">Desde</label>
+                <input type="date" class="form-control" id="fechadesde">
+
+                <label for="fechahasta" class="col-sm-2 col-form-label">Hasta</label>
+                <input type="date" class="form-control" id="fechahasta">
+              </div>
+
+            <br>
+
+                <fieldset>
+                    <table>
+                        <tr>
+                            <th>Titulo</th>
+                            <th>Descripción</th>
+                            <th>Fecha de presentación</th>
+                            <th>Archivos adjuntos</th>
+                            <th>Certificado analítico</th>
+                            <th>Nota de aceptación</th>
+                            <th>CV de asesor</th>
+                            <th>Estado</th>
+                        </tr>
+    
+                        <tr>
+                            <td><div><label id="title">Estudio de malware y su comportamiento.</label> </div></td>
+                            <td><div><label id="description">Analizar y comprender el funcionamiento de software malicioso o malware.</label> </div></td>
+                            <td><div><label id="fp">03/11/2023</label> </div></td>
+                            <td><div> <a href="#">Descargar</a></div></td>
+                            <td><div> <a href="#">Descargar</a></div></td>
+                            <td><div> <a href="#">Descargar</a></div></td>
+                            <td><div> <a href="#">Descargar</a></div></td>
+                            <td><div><label id="fp">Pendiente</label></div></td>
+                        </tr>       
+                    </table>
+                </fieldset>
+
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro Alumnos</title>
+</head>
+<body>
+<h1>Registrar Alumno</h1>
+<h2>Ingresá los siguientes datos</h2>
+<form action="https://www.youtube.com/watch?v=R1wwopVP7-A&ab_channel=FrancoEscamilla" method="post">
+
+<fieldset>
+  <legend>Datos del Alumno</legend>
+  Todos los campos son obligatorios
+  <br><br>
+
+  <label for="cuil">Número de Matricula</label> <br>
+  <input type="number" name="cuil" id="cuil" maxlength="5" placeholder="Ingresar Nro de Matricula sin puntos" required="">
+
+  <br><br>
+
+  <label for="apeynom">Apellido y Nombre</label> <br>
+  <input type="text" name="apeynom" id="apeynom" size="50" maxlength="50" placeholder="Apellido y Nombres del Alumno" required="">
+
+  <br><br>
+
+ <label for="email">Correo Electrónico</label> <br>
+ <input type="email" name="email" id="email" size="50" maxlength="50" placeholder="Ingresar dirección de Correo electrónico" required="">
+
+</fieldset>
+<!--
+<fieldset>
+  <legend>Datos de logeo</legend>
+
+  <label for="usuario">Usuario</label> <br>
+  <input id="usuario" name="usuario" type="text" maxlength="60" required="">
+
+  <br><br>
+
+  <label for="contraseña">Contraseña</label> <br>
+  <input id="password" name="password" type="password" maxlength="20" required="">
+
+  <br><br>
+
+  <label for="confirmar contraseña"> Confirmar Contraseña</label> <br>
+  <input id="confirmar password" name="confirmar password" type="password" maxlength="20" required="">
+
+  <br><br>
+
+  <a href="#">¿Olvido su contraseña?</a>
+
+  <br><br>
+
+</fieldset>
+-->
+<fieldset>
+  <legend>Seleccione a que Proyecto pertenece</legend>
+    <table>
+        <tr>
+            <th>Titulo Proyecto Trabajo Final</th>
+            <th>Alumnos integrantes</th>
+            <th>fecha de Registro</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Prototipo sistema de gestion de Tesis</td>
+            <td>Rodriguez Pablo, Paez Raul</td>
+            <td>24/08/2023</td>
+            <td><input type="checkbox" id="opcion1" name="opcion1" value="1"> </td>
+        </tr>
+    </table>
+ </fieldset>
+
+<fieldset>
+<!--<input name="Registrarse" type="submit" value="Registrarse"> &nbsp;&nbsp;-->
+<input name="Guardar" type="submit" value="Guardar"> &nbsp;&nbsp;
+<input name="cancelar" type="reset" value="Cancelar">
+</fieldset>
+
+ </form>
+
+</body>
+</html>
